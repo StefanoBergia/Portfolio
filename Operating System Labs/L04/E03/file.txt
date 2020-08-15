@@ -1,0 +1,5 @@
+cd /home/stefano
+ls -laR
+less Makefile
+mkdir tmpDir
+cp Makefile tmpDir

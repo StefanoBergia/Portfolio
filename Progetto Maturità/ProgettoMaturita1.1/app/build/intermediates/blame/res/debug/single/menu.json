@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/res/merged/debug/menu/guide_about.xml",
+        "source": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/src/main/res/menu/guide_about.xml"
+    },
+    {
+        "merged": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/res/merged/debug/menu/detail_menu.xml",
+        "source": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/src/main/res/menu/detail_menu.xml"
+    },
+    {
+        "merged": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/res/merged/debug/menu/mainsearch.xml",
+        "source": "/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/src/main/res/menu/mainsearch.xml"
+    }
+]

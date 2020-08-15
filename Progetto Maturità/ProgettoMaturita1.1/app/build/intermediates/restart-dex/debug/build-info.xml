@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="14170350814402"
+    token="3897375004176608381" >
+
+    <task
+        name="javac"
+        duration="159" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+        type="DEX" />
+
+    <build timestamp="13788875579165" >
+        <artifact
+            location="/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="14170350814402" >
+        <artifact
+            location="/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

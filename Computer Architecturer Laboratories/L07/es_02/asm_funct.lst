@@ -1,0 +1,85 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         
+    2 00000000         
+    3 00000000                 AREA             asm_functions, CODE, READONLY
+    4 00000000                 EXPORT           average
+    5 00000000         average
+    6 00000000         
+    7 00000000 46EC            MOV              r12, sp
+    8 00000002 E92D 4DF0       STMFD            sp!,{r4-r8,r10-r11,lr}
+    9 00000006         
+   10 00000006 F04F 0600       MOV              R6,#0
+   11 0000000A F04F 0500       MOV              R5,#0
+   12 0000000E F04F 0400       MOV              R4,#0       ;registro che conte
+                                                            rrà la media
+   13 00000012         
+   14 00000012 428E    loop    CMP              R6,R1
+   15 00000014 D008            BEQ              end_loop
+   16 00000016         
+   17 00000016 5943            LDR              R3,[R0,R5]
+   18 00000018 441C            ADD              R4,R4,R3
+   19 0000001A BF68 2400       MOVVS            R4,#0
+   20 0000001E F105 0504       ADD              R5,#4
+   21 00000022 F106 0601       ADD              R6,#1
+   22 00000026         
+   23 00000026 E7F4            B                loop
+   24 00000028         
+   25 00000028 2C00    end_loop
+                               CMP              R4,#0
+   26 0000002A BF14 FBB4 
+              F0F1             UDIVNE           R0,R4,R1
+   27 00000030 2000            MOVEQ            R0,#0
+   28 00000032         
+   29 00000032         
+   30 00000032 E8BD 8DF0       LDMFD            sp!,{r4-r8,r10-r11,pc}
+   31 00000036         
+   32 00000036                 END
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
+ork --depend=.\asm_funct.d -o.\asm_funct.o -IC:\Keil_v5\ARM\RV31\INC -IC:\Keil_
+v5\ARM\CMSIS\Include -IC:\Keil_v5\ARM\INC\NXP\LPC17xx --predefine="__EVAL SETA 
+1" --predefine="__UVISION_VERSION SETA 529" --list=.\asm_funct.lst ASM_funct.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+asm_functions 00000000
+
+Symbol: asm_functions
+   Definitions
+      At line 3 in file ASM_funct.s
+   Uses
+      None
+Comment: asm_functions unused
+average 00000000
+
+Symbol: average
+   Definitions
+      At line 5 in file ASM_funct.s
+   Uses
+      At line 4 in file ASM_funct.s
+Comment: average used once
+end_loop 00000028
+
+Symbol: end_loop
+   Definitions
+      At line 25 in file ASM_funct.s
+   Uses
+      At line 15 in file ASM_funct.s
+Comment: end_loop used once
+loop 00000012
+
+Symbol: loop
+   Definitions
+      At line 14 in file ASM_funct.s
+   Uses
+      At line 23 in file ASM_funct.s
+Comment: loop used once
+4 symbols
+336 symbols in table

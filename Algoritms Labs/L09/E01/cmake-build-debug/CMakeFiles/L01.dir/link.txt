@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/L01.dir/main.c.o CMakeFiles/L01.dir/BST.c.o CMakeFiles/L01.dir/Item.c.o  -o L01 

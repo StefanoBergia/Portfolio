@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/atleti.c
+atleti.h
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/atleti.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/atleti.h
+stdio.h
+-
+malloc.h
+-
+esercizi.h
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/esercizi.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/esercizi.c
+esercizi.h
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/esercizi.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/esercizi.h
+stdio.h
+-
+malloc.h
+-
+
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/main.c
+stdio.h
+-
+malloc.h
+-
+atleti.h
+/home/stefano/Documenti/Algoritmi/Lab/L08/E03/atleti.h
+

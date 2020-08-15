@@ -1,0 +1,40 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+const NavBar = (props) => {
+
+  return (
+    <nav className="navbar navbar-dark navbar-expand-sm  fixed-top" style={{"background-color":"darkorange"}}>
+
+
+      <Link to="/" className="navbar-brand">
+      <svg className="bi bi-truck" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fillRule="evenodd" d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5v7h-1v-7a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5v1A1.5 1.5 0 0 1 0 10.5v-7zM4.5 11h6v1h-6v-1z"/>
+        <path fillRule="evenodd" d="M11 5h2.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5h-1v-1h1a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4.5h-1V5zm-8 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+        <path fillRule="evenodd" d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/>
+      </svg>
+        &nbsp;
+        Autonoleggio
+      </Link>
+      
+
+      <div className="navbar-nav ml-md-auto">
+        <Link to={props.user===null ?"/login": "/"} className="nav-item nav-link" onClick={props.logout}>
+          {props.user===null?"Login":"Logout"}
+        </Link>
+        
+        <Link to={'/prenota'} className="nav-item nav-link" >
+         Prenota un veicolo
+        </Link>
+        {props.user != null &&
+          <Link to={'/storico'} className="nav-item nav-link" >
+          Storico Prenotazioni
+          </Link>
+        }
+      </div>
+    
+    </nav>
+  );
+}
+
+export default NavBar;

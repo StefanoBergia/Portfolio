@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stefano/Documenti/Scuola/Poli/Terzo Anno/Primo Semestre/Sistemi operativi/Laboratorio/L01/main.c
+stdio.h
+-
+stdlib.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+unistd.h
+-
+dirent.h
+-
+malloc.h
+-
+memory.h
+-
+limits.h
+-
+

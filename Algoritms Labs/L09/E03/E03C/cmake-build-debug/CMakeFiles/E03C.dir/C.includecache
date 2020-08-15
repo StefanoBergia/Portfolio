@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/E03/E03C/main.c
+stdio.h
+-
+malloc.h
+-
+memory.h
+-
+values.h
+-
+stdlib.h
+-
+

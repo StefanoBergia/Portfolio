@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/BST.c
+BST.h
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/BST.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/BST.h
+stdio.h
+-
+Item.h
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/Item.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/Item.c
+Item.h
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/Item.h
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/Item.h
+stdio.h
+-
+malloc.h
+-
+string.h
+-
+
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/main.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+Item.h
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/Item.h
+BST.h
+/home/stefano/Documenti/Algoritmi/Lab/L09/L01/BST.h
+

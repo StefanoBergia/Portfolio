@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:weightSum="1">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="inserisci nome del file tappe"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/nomeTappe"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Start"
+                    android:id="@+id/btnStart"
+                    android:layout_marginBottom="10dp" android:onClick="StartTappe"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Stop"
+                    android:id="@+id/btnStop"
+                    android:layout_marginBottom="15dp" android:onClick="StopTappe"/>
+
+            <com.example.tragitto.AutoGridView
+                    android:layout_width="match_parent"
+                    android:layout_height="221dp"
+                    android:numColumns="@integer/cols"
+                    android:verticalSpacing="20dp"
+                    android:horizontalSpacing="0dp"
+                    android:stretchMode="columnWidth"
+                    android:gravity="center"
+                    android:id="@+id/grid"
+                    android:layout_weight="0.64"></com.example.tragitto.AutoGridView>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="inserisci nome fermata"/>
+            <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/nomeFermata"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="inserisci"
+                    android:id="@+id/btnFermata" android:onClick="SaveFermata"/>
+                </LinearLayout>
+</LinearLayout>

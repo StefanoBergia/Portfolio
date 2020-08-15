@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Edge.c
+Edge.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Edge.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Edge.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Graph.c
+malloc.h
+-
+values.h
+-
+Graph.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Graph.h
+ST.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/ST.h
+PQ.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/PQ.h
+Edge.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Edge.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Graph.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/PQ.c
+malloc.h
+-
+PQ.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/PQ.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/PQ.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/ST.c
+malloc.h
+-
+memory.h
+-
+ST.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/ST.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/ST.h
+
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/main.c
+stdio.h
+-
+malloc.h
+-
+values.h
+-
+Graph.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Graph.h
+Edge.h
+D:/Scuola/Poli/Secondo Anno/primo Semestre/Algoritmi/Lab/L11/E01/Edge.h
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="red">#FF6600</color>
+    <color name="autoCompleteTextView">#FFF</color>
+    <color name="gray">#ddd</color>
+    <color name="white">#fff</color>
+</resources>

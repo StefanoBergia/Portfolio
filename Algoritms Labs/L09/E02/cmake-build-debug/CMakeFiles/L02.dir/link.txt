@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/L02.dir/main.c.o CMakeFiles/L02.dir/Item.c.o CMakeFiles/L02.dir/PQ.c.o  -o L02 -lm 

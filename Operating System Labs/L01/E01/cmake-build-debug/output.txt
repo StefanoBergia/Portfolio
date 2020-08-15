@@ -1,0 +1,53 @@
+DIRECTORY:cmake-build-debug
+ FILE:output.txt
+ FILE:CMakeCache.txt
+ DIRECTORY:CMakeFiles
+  FILE:feature_tests.bin
+  FILE:feature_tests.c
+  FILE:Makefile.cmake
+  FILE:clion-log.txt
+  FILE:progress.marks
+  FILE:feature_tests.cxx
+  FILE:CMakeDirectoryInformation.cmake
+  FILE:Makefile2
+  DIRECTORY:CMakeTmp
+  FILE:clion-environment.txt
+  FILE:cmake.check_cache
+  FILE:TargetDirectories.txt
+  DIRECTORY:3.8.2
+   FILE:CMakeDetermineCompilerABI_CXX.bin
+   FILE:CMakeDetermineCompilerABI_C.bin
+   FILE:CMakeSystem.cmake
+   DIRECTORY:CompilerIdCXX
+    FILE:CMakeCXXCompilerId.cpp
+    DIRECTORY:tmp
+    FILE:a.out
+   DIRECTORY:CompilerIdC
+    FILE:CMakeCCompilerId.c
+    DIRECTORY:tmp
+    FILE:a.out
+   FILE:CMakeCCompiler.cmake
+   FILE:CMakeCXXCompiler.cmake
+  FILE:CMakeOutput.log
+  DIRECTORY:L01.dir
+   FILE:cmake_clean.cmake
+   FILE:progress.make
+   FILE:C.includecache
+   FILE:DependInfo.cmake
+   FILE:flags.make
+   FILE:main.c.o
+   FILE:link.txt
+   FILE:depend.make
+   FILE:build.make
+   FILE:depend.internal
+ FILE:Makefile
+ FILE:L01
+ FILE:cmake_install.cmake
+ FILE:L01.cbp
+DIRECTORY:.idea
+ FILE:L01.iml
+ FILE:misc.xml
+ FILE:workspace.xml
+ FILE:modules.xml
+FILE:CMakeLists.txt
+FILE:main.c

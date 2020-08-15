@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/E02.dir/main.c.o  -o E02 -lpthread 

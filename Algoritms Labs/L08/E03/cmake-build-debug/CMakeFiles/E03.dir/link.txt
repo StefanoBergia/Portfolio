@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/E03.dir/main.c.o CMakeFiles/E03.dir/esercizi.c.o CMakeFiles/E03.dir/atleti.c.o  -o E03 

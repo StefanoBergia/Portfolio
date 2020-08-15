@@ -1,0 +1,17 @@
+15
+A0001 Tizio Caio corsa 01/01/1997 10
+A0002 Mario Rossi atletica 11/11/1999 45
+A0003 Lucia Bianchi basket 27/03/1998 1
+A0004 Fabrizio Neri corsa 01/01/1997 7
+A0005 Luca Verdi corsa 01/01/2000 23
+A0006 Maria Gialli basket 10/12/1994 12
+A0007 Mario Marrone calcio 07/07/1997 17
+A0008 Antonio Rosa nuoto 07/01/1997 19
+A0009 Giorgia Rossi nuoto 01/07/1997 2
+A0010 Elisa Bianco atletica 05/05/1995 21
+A0011 Lorenzo Verdi pallavolo 30/07/1999 22
+A0012 Tiziana Gialli corsa 04/04/1995 13
+A0013 Alex Nero calcio 01/01/1997 10
+A0014 Tommaso Rosa calcio 01/01/1998 4
+A0015 Stefano Bergia nuoto 16/12/1997 3
+

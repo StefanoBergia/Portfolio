@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/E02.dir/main.c.o CMakeFiles/E02.dir/BST.c.o CMakeFiles/E02.dir/Utente.c.o  -o E02 

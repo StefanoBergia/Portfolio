@@ -1,0 +1,5 @@
+4
+Dronero 5 5
+Busca 3 5
+Caraglio 1 3
+Cuneo 5 10

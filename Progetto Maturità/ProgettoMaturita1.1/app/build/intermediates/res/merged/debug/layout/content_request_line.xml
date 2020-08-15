@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity_Request_Line"
+    tools:showIn="@layout/activity_request_line">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:id="@+id/cv">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/richiediDepartureTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:hint="@string/departure"
+                android:dropDownHeight="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/richiediArrivalTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:hint="@string/arrival"
+                android:dropDownHeight="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/richiediDepartureTxt"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/richiediDittaTrasporti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:hint="@string/richiediDittaTrasporti_contnet"
+                android:dropDownHeight="wrap_content"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/richiediArrivalTxt"
+                android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

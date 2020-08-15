@@ -1,0 +1,1 @@
+C:\MinGW\bin\gcc.exe -g   CMakeFiles/E01.dir/main.c.obj CMakeFiles/E01.dir/ST.c.obj CMakeFiles/E01.dir/Graph.c.obj CMakeFiles/E01.dir/PQ.c.obj CMakeFiles/E01.dir/Edge.c.obj  -o E01.exe -Wl,--out-implib,libE01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

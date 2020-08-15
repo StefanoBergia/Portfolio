@@ -1,0 +1,19 @@
+#footer{
+padding:20px;
+background:#000;
+opacity:0.8;
+}
+
+input[type="number"]{
+    max-width: 100px;
+    min-width: 50px;
+}
+
+select{
+    /*min-width: 100px;*/
+    max-width: 150px;
+}
+
+
+
+

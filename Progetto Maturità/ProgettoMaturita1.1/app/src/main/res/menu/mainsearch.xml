@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_guide"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_swap"
+        android:orderInCategory="102"
+        android:icon="@drawable/ic_compare_arrows_white_24dp"
+        android:title="@string/action_swap"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="101"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="101"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>
+
+<!--menu dell'activity di ricerca-->

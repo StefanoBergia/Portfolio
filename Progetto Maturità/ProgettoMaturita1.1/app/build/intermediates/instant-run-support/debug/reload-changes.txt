@@ -1,0 +1,2 @@
+CHANGED,/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/example/stefano/progettomaturita/Async_Get_File_Registrazioni$override.class
+CHANGED,/home/stefano/Documenti/Nautibus/Nautibus_Beta/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

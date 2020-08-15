@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/E04.dir/main.c.o CMakeFiles/E04.dir/es.c.o CMakeFiles/E04.dir/atl.c.o CMakeFiles/E04.dir/esList.c.o CMakeFiles/E04.dir/esArray.c.o CMakeFiles/E04.dir/atlList.c.o  -o E04 

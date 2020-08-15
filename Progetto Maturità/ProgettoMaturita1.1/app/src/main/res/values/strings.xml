@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">NautiBus</string>
+    <string name="app_site">www.nautibus.it</string>
+
+    <!-- navigation drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header">I.I.S G. Vallauri Fossano</string>
+
+    <!-- activity main -->
+    <string name="label_content">Le linee che seguirai verrano visualizzate qui</string>
+    <string name="label_seguite">Linee che segui</string>
+    <string name="main_guide_msg">In questa finestra vengono visualizzate le linee che segui.\nPer cercare a seguire nuove linee tocca il pulsante in fondo</string>
+    <string name="whatsapp_msg">Prova l\'app Nautibus, per non perdere più i pullman</string>
+    <string name="no_whatsapp">Whatsapp non installata</string>
+
+    <!--recyclerView-->
+    <string name="nome_linea">Nome Linea: </string>
+    <string name="ora_partenza">Ora Partenza: </string>
+    <string name="nome_ditta">Ditta: </string>
+
+    <!-- activity gestione notifiche -->
+    <string name="title_activity_gestione_notifiche">Gestione avvisi</string>
+    <string name="lblHeadNotifiche_content">Le linee di cui richiederai le notifiche verranno visualizzate qui</string>
+    <string name="empty_msg">Le linee di cui richiederai le notifiche verranno visualizzate qui</string>
+    <string name="full_msg">Gli avvisi che richiedi</string>
+    <string name="gestione_notifiche_err">Non è stato possibile caricare le linee a cui si è iscritti</string>
+    <string name="nome_fermata">Nome fermata: </string>
+    <string name="ora_passaggio">Ora di passaggio: </string>
+    <string name="msg_notifica">"Invia notifica quando mancano <b>%s</b> minuti"</string>
+    <string name="gestione_guida">In questa finestra puoi gestire le tue iscrizioni alle linee.<br />Clicca su una linea a cui sei iscritto per visualizzare il dettaglio oppure tieni premuto su di essa per modificare i parametri dell\'iscrizione.</string>
+    <string name="update_succes">Notifica modificata con successo</string>
+    
+    <!--activity request_line -->
+    <string name="title_activity_request_line">Richiedi nuova linea</string>
+    <string name="richiediDittaTrasporti_contnet">Ditta trasporti</string>
+    <string name="fill_msg">È necessario compilare tutti i campi</string>
+    <string name="request_guide">In questa finestra è possibile richiedere una linea non ancora presente sul database.</string>
+
+    <!-- search activity -->
+    <string name="title_activity_search">Cerca Linee</string>
+    <string name="departure">Partenza</string>
+    <string name="arrival">Arrivo</string>
+    <string name="lblMsg">Inserisci loacalità di partenza e arrivo</string>
+    <string name="no_results">Nessuna linea trovata</string>
+    <string name="search_guide">In questa finestra puoi cercare delle linee
+Scrivi la località di partenza e di arrivo negli appositi spazi e tocca la scheda relative alle linee trovate per aprirne il dettaglio</string>
+
+    <!-- detail activity -->
+    <string name="title_activity_detail">Dettagli Linea</string>
+    <string name="in_corso">LINEA IN CORSO</string>
+    <string name="driver">Autista: </string>
+    <string name="bus">Autobus: </string>
+    <string name="delay">Ritardo: </string>
+    <string name="fermata">Nome Fermata: </string>
+    <string name="loc">Nome Località </string>
+    <string name="ora">Ora di arrivo :</string>
+    <string name="line_saved">Linea Salvata</string>
+    <string name="line_removed">Linea Rimossa</string>
+    <string name="line_save_error">Errore nel salvataggio</string>
+    <string name="line_remove_error">Errore nella rimozione della linea</string>
+    <string name="detail_guide">In questa finestra vengono visualizzati i dettagli sulla linea.\nTocca il pulsante \'+\' per aggiungerla ai preferiti.\nTocca il pulsante \'ricarica\' per aggiornare lo stato della linea.\nTieni premuta una fermata per aggiungere una notifica</string>
+    <string name="cxmenu_header">Notifica quando mancano</string>
+    <string name="five_min">5 minuti</string>
+    <string name="ten_min">10 minuti</string>
+    <string name="fifteen_min">15 minuti</string>
+    <string name="remove_notification">Rimuovi notifica</string>
+    <string name="notification_registered">Notifica registrata con successo</string>
+    <string name="notification_unregistered">Notifica eliminata con successo</string>
+    <string name="notification_error">Si è verificato un errore</string>
+
+    <!-- map activity -->
+    <string name="title_activity_map_linea">Percorso Linea</string>
+    <string name="progress_msg">Caricamento. Attendere prego...</string>
+
+    <!-- menu -->
+    <string name="action_settingsmenu">Impostazioni</string>
+    <string name="action_about">About</string>
+    <string name="action_swap">Scambia</string>
+    <string name="action_search">Cerca</string>
+    <string name="action_save">Salva</string>
+    <string name="action_reload">Ricarica</string>
+
+    <!--notifica push-->
+    <string name="init">Autobus in arrivo a </string>
+    <string name="mid"> tra circa </string>
+    <string name="end"> Minuti</string>
+
+
+    <!--toolbar-->
+    <string name="action_settings">Guida</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- messaggi app -->
+    <string name="guide">Guida</string>
+    <string name="about">App realizzata da <b>Bergia Stefano</b> e <b>Luca Maritano</b> come progetto di maturità nell\' anno scolastico 2015/2016
+ I.I.S G. Vallauri Fossano</string>
+
+
+    <string name="no_internet">Attenzione, sembra che tu non sia connesso ad internet.</string>
+    <string name="no_internet_2">Sei offline.</string>
+    <!--PROJECT NUMBER-->
+    <string name="project_number">1060293716297</string>
+
+    <!--file linee salvate-->
+    <string name="saved">linee_salvate.txt</string>
+
+    <!--file notifiche salvate-->
+    <string name="saved_n">notifiche.txt</string>
+
+    <!-- email -->
+    <string name="admin_email">progetto.maturita.vallauri@gmail.com</string>
+
+    <!-- url web service -->
+    <string name="is_in_corso">http://bustracker.altervista.org/Nautibus/IsInCorso.php</string>
+    <string name="get_notifiche">http://bustracker.altervista.org/Nautibus/GetUserNotification.php</string>
+    <string name="get_hints">http://bustracker.altervista.org/Nautibus/GetAutoComplete.php</string>
+    <string name="search_lines">http://bustracker.altervista.org/Nautibus/queryTrack.php</string>
+    <string name="get_in_corso">http://bustracker.altervista.org/Nautibus/getInCorso.php</string>
+    <string name="get_fermate">http://bustracker.altervista.org/Nautibus/queryFermate.php</string>
+    <string name="web_add_notification">http://bustracker.altervista.org/Nautibus/AddNotification.php</string>
+    <string name="web_remove_notification">http://bustracker.altervista.org/Nautibus/RemoveNotification.php</string>
+    <string name="google_maps">http://maps.googleapis.com/maps/api/directions/json</string>
+    <string name="get_bus">http://bustracker.altervista.org/Nautibus/getBus.php</string>
+    <string name="get_iscrizioni">http://bustracker.altervista.org/Nautibus/getIscrizioniLinee.php</string>
+    <string name="update_notification">http://bustracker.altervista.org/Nautibus/updateNotification.php</string>
+
+</resources>
